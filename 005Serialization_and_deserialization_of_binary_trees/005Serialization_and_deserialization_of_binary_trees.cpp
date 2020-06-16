@@ -15,7 +15,9 @@ struct TreeNode {
 class Codec {
 public:
 
+    // 这里使用string储存，是因为需求为转换为字符串!
     // Encodes a tree to a single string.
+    // 没用实际意义，还请看deserialize实现string按','分开的代码，这一部分没有单独做成函数
     string serialize(TreeNode* root) {
         string add{};
         if (root == NULL)
@@ -47,6 +49,7 @@ public:
                 count++;
             }
         }
+        // 以上，*result_data储存按','区分的各个val的值
         
         queue<string> result_queue;
         for (int i = 0;i < count;i++)
@@ -69,7 +72,7 @@ public:
     }
 };
 
-void main() {
+int main() {
     TreeNode* root = new TreeNode;
     root->val = 1;
     TreeNode* child_1 = new TreeNode;
@@ -88,6 +91,7 @@ void main() {
     string root_code= codec.serialize(root);
     cout << root_code << endl;
     cout << codec.serialize(codec.deserialize(root_code)) << endl;
+    return 0;
 }
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
