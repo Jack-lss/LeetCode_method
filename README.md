@@ -10,11 +10,11 @@
 
 - [002Sum_of_three_numbers](#2)
 
-- [003after_array_closest_target](#2)
+- [003after_array_closest_target](#3)
 
-- [004longest_common_prefix](#2)
+- [004longest_common_prefix](#4)
 
-- [005Serialization_and_deserialization_of_binary_trees](#2)
+- [005Serialization_and_deserialization_of_binary_trees](#5)
 
 ----
 
