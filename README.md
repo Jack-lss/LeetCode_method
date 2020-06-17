@@ -6,19 +6,21 @@
 
 ----
 
-- [001Sum_of_two_numbers](#1)
+- [001Sum_of_two_numbers](#001)
 
-- [002Sum_of_three_numbers](#2)
+- [002Sum_of_three_numbers](#002)
 
-- [003after_array_closest_target](#3)
+- [003after_array_closest_target](#003)
 
-- [004longest_common_prefix](#4)
+- [004longest_common_prefix](#004)
 
-- [005Serialization_and_deserialization_of_binary_trees](#5)
+- [005Serialization_and_deserialization_of_binary_trees](#005)
+
+- [006Best_sightseeing_combination](#006)
 
 ----
 
-## <h2 id="1">001Sum_of_two_numbers</h2>
+## <h2 id="001">001Sum_of_two_numbers</h2>
 
 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。
 
@@ -31,7 +33,7 @@
 
 ----
 
-## <h2 id="2">002Sum_of_three_numbers</h2>
+## <h2 id="002">002Sum_of_three_numbers</h2>
 
 给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有满足条件且不重复的三元组。
 
@@ -49,7 +51,7 @@
 
 ----
 
-## <h2 id="3">003after_array_closest_target</h2>
+## <h2 id="003">003after_array_closest_target</h2>
 
 给你一个整数数组 arr 和一个目标值 target ，请你返回一个整数 value ，使得将数组中所有大于 value 的值变成 value 后，数组的和最接近  target （最接近表示两者之差的绝对值最小）。
 
@@ -80,7 +82,7 @@
 
 ----
 
-## <h2 id="4">004longest_common_prefix</h2>
+## <h2 id="004">004longest_common_prefix</h2>
 
 编写一个函数来查找字符串数组中的最长公共前缀。
 如果不存在公共前缀，返回空字符串 ""。
@@ -100,7 +102,7 @@
 
 ----
 
-## <h2 id="5">005Serialization_and_deserialization_of_binary_trees</h2>
+## <h2 id="005">005Serialization_and_deserialization_of_binary_trees</h2>
 
 序列化是将一个数据结构或者对象转换为连续的比特位的操作，进而可以将转换后的数据存储在一个文件或者内存中，同时也可以通过网络传输到另一个计算机环境，采取相反方式重构得到原数据。
 
@@ -121,5 +123,26 @@
 **提示**: 这与 LeetCode 目前使用的方式一致，详情请参阅 LeetCode 序列化二叉树的格式。你并非必须采取这种方式，你也可以采用其他的方法解决这个问题。
 
 **说明**: 不要使用类的成员 / 全局 / 静态变量来存储状态，你的序列化和反序列化算法应该是无状态的。
+
+----
+
+## <h2 id='006'>006Best_sightseeing_combination</h2>
+
+给定正整数数组 A，A[i] 表示第 i 个观光景点的评分，并且两个景点 i 和 j 之间的距离为 j - i。
+
+一对景点（i < j）组成的观光组合的得分为（A[i] + A[j] + i - j）：景点的评分之和减去它们两者之间的距离。
+
+返回一对观光景点能取得的最高分。
+
+示例：
+
+    输入：[8,1,5,2,6]
+    输出：11
+    解释：i = 0, j = 2, A[i] + A[j] + i - j = 8 + 5 + 0 - 2 = 11
+
+**提示：**
+
+    2 <= A.length <= 50000
+    1 <= A[i] <= 1000
 
 ----
