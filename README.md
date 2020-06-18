@@ -161,7 +161,7 @@
 
 示例 1：
 
-!['1-2--3--4-5--6--7'](007Restore_Binary_Tree_from_Preorder_Traversal\recover-a-tree-from-preorder-traversal01.png "007")
+!['1-2--3--4-5--6--7'](https://github.com/Jack-lss/LeetCode_method/raw/master/007Restore_Binary_Tree_from_Preorder_Traversal/recover-a-tree-from-preorder-traversal01.png "007")
 
     输入："1-2--3--4-5--6--7"
     输出：[1,2,5,3,4,6,7]
