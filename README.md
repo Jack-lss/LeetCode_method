@@ -20,6 +20,8 @@
 
 - [007Restore_Binary_Tree_from_Preorder_Traversal](#007)
 
+- [008Verify_palindrome](#008)
+
 ----
 
 ## <h2 id="001">001Sum_of_two_numbers</h2>
@@ -184,5 +186,23 @@
 
 - 原始树中的节点数介于 1 和 1000 之间。
 - 每个节点的值介于 1 和 10 ^ 9 之间。
+
+----
+
+## 008Verify_palindrome
+
+给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
+
+**说明**：本题中，我们将空字符串定义为有效的回文串。
+
+示例 1:
+
+    输入: "A man, a plan, a canal: Panama"
+    输出: true
+
+示例 2:
+
+    输入: "race a car"
+    输出: false
 
 ----
