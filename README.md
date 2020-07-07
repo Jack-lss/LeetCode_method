@@ -308,7 +308,7 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 
 现在考虑网格中有障碍物。那么从左上角到右下角将会有多少条不同的路径？
 
-!["robot"](011Different_paths_2\robot_maze.png "011")
+!["robot"](https://github.com/Jack-lss/LeetCode_method/raw/master/011Different_paths_2/robot_maze.png "011")
 
 网格中的障碍物和空位置分别用 1 和 0 来表示。
 
