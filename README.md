@@ -30,22 +30,24 @@
 
 - [012Sum_of_paths](#012)
 
+- [013Best_stock_trading_period_including_freezing_period](#013)
+
 ----
 
-## <h2 id="001">001Sum_of_two_numbers</h2>
+## <span id="001">001Sum_of_two_numbers</span>
 
 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。
 
 示例:
 
     给定 nums = [2, 7, 11, 15], target = 9
-
+    
     因为 nums[0] + nums[1] = 2 + 7 = 9
     所以返回 [0, 1]
 
 ----
 
-## <h2 id="002">002Sum_of_three_numbers</h2>
+## <span id="002">002Sum_of_three_numbers</span>
 
 给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有满足条件且不重复的三元组。
 
@@ -54,7 +56,7 @@
 示例：
 
     给定数组 nums = [-1, 0, 1, 2, -1, -4]，
-
+    
     满足要求的三元组集合为：
     [
         [-1, 0, 1],
@@ -63,7 +65,7 @@
 
 ----
 
-## <h2 id="003">003after_array_closest_target</h2>
+## <span id="003">003after_array_closest_target</span>
 
 给你一个整数数组 arr 和一个目标值 target ，请你返回一个整数 value ，使得将数组中所有大于 value 的值变成 value 后，数组的和最接近  target （最接近表示两者之差的绝对值最小）。
 
@@ -89,12 +91,12 @@
 
 提示：
 
-- > 1 <= arr.length <= 10^4
-- > 1 <= arr[i], target <= 10^5
+    1 <= arr.length <= 10^4
+    1 <= arr[i], target <= 10^5
 
 ----
 
-## <h2 id="004">004longest_common_prefix</h2>
+## <span id="004">004longest_common_prefix</span>
 
 编写一个函数来查找字符串数组中的最长公共前缀。
 如果不存在公共前缀，返回空字符串 ""。
@@ -114,7 +116,7 @@
 
 ----
 
-## <h2 id="005">005Serialization_and_deserialization_of_binary_trees</h2>
+## <span id="005">005Serialization_and_deserialization_of_binary_trees</span>
 
 序列化是将一个数据结构或者对象转换为连续的比特位的操作，进而可以将转换后的数据存储在一个文件或者内存中，同时也可以通过网络传输到另一个计算机环境，采取相反方式重构得到原数据。
 
@@ -123,13 +125,13 @@
 示例:
 
     你可以将以下二叉树：
-
+    
         1
        / \
       2   3
          / \
         4   5
-
+    
     序列化为 "[1,2,3,null,null,4,5]"
 
 **提示**: 这与 LeetCode 目前使用的方式一致，详情请参阅 LeetCode 序列化二叉树的格式。你并非必须采取这种方式，你也可以采用其他的方法解决这个问题。
@@ -138,7 +140,7 @@
 
 ----
 
-## <h2 id='006'>006Best_sightseeing_combination</h2>
+## <span id='006'>006Best_sightseeing_combination</span>
 
 给定正整数数组 A，A[i] 表示第 i 个观光景点的评分，并且两个景点 i 和 j 之间的距离为 j - i。
 
@@ -159,7 +161,7 @@
 
 ----
 
-## <h2 id='007'>007Restore_Binary_Tree_from_Preorder_Traversal</h2>
+## <span id='007'>007Restore_Binary_Tree_from_Preorder_Traversal</span>
 
 我们从二叉树的根节点 root 开始进行深度优先搜索。
 
@@ -197,7 +199,7 @@
 
 ----
 
-## <h2 id='008'>008Verify_palindrome</h2>
+## <span id='008'>008Verify_palindrome</span>
 
 给定一个字符串，验证它是否是回文串，只考虑字母和数字字符，可以忽略字母的大小写。
 
@@ -215,7 +217,7 @@
 
 ----
 
-## <h2 id='009'>009Regular_expression_matching</h2>
+## <span id='009'>009Regular_expression_matching</span>
 
 给你一个字符串 s 和一个字符规律 p，请你来实现一个支持 '.' 和 '*' 的正则表达式匹配。
 
@@ -271,7 +273,7 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 
 ----
 
-## <h2 id='010'>010The_maximum_path_sum_in_the_binary_tree</h2>
+## <span id='010'>010The_maximum_path_sum_in_the_binary_tree</span>
 
 给定一个非空二叉树，返回其最大路径和。
 
@@ -280,7 +282,7 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 示例 1:
 
     输入: [1,2,3]
-
+    
                1
               / \
              2   3
@@ -289,7 +291,7 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 示例 2:
 
     输入: [-10,9,20,null,null,15,7]
-
+    
        -10
        / \
       9  20
@@ -300,7 +302,7 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 
 ----
 
-## <h2 id="011">011Different_paths_2</h2>
+## <span id="011">011Different_paths_2</span>
 
 一个机器人位于一个 m x n 网格的左上角 （起始点在下图中标记为“Start” ）。
 
@@ -331,13 +333,14 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 
 ----
 
-## <h2 id="012">012Sum_of_paths</h2>
+## <span id="012">012Sum_of_paths</span>
 
 给定一个二叉树和一个目标和，判断该树中是否存在根节点到叶子节点的路径，这条路径上所有节点值相加等于目标和。
 
 说明: 叶子节点是指没有子节点的节点。
 
-    示例: 
+示例:
+
     给定如下二叉树，以及目标和 sum = 22，
               5
              / \
@@ -347,5 +350,22 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
          /  \      \
         7    2      1
     返回 true, 因为存在目标和为 22 的根节点到叶子节点的路径 5->4->11->2。
+
+----
+
+## <span id="013">013Best_stock_trading_period_including_freezing_period</span>
+
+给定一个整数数组，其中第 i 个元素代表了第 i 天的股票价格 。
+
+设计一个算法计算出最大利润。在满足以下约束条件下，你可以尽可能地完成更多的交易（多次买卖一支股票）:
+
+- 你不能同时参与多笔交易（你必须在再次购买前出售掉之前的股票）。
+- 卖出股票后，你无法在第二天买入股票 (即冷冻期为 1 天)。
+
+示例:
+
+    输入: [1,2,3,0,2]
+    输出: 3
+    解释: 对应的交易状态为: [买入, 卖出, 冷冻期, 买入, 卖出]
 
 ----
