@@ -7,30 +7,19 @@
 ----
 
 - [001Sum_of_two_numbers](#001)
-
 - [002Sum_of_three_numbers](#002)
-
 - [003after_array_closest_target](#003)
-
 - [004longest_common_prefix](#004)
-
 - [005Serialization_and_deserialization_of_binary_trees](#005)
-
 - [006Best_sightseeing_combination](#006)
-
 - [007Restore_Binary_Tree_from_Preorder_Traversal](#007)
-
 - [008Verify_palindrome](#008)
-
 - [009Regular_expression_matching](#009)
-
 - [010The_maximum_path_sum_in_the_binary_tree](#010)
-
 - [011Different_paths_2](#011)
-
 - [012Sum_of_paths](#012)
-
 - [013Best_stock_trading_period_including_freezing_period](#013)
+- [014Lntersection_of_two_arrays_2](#14)
 
 ----
 
@@ -41,7 +30,7 @@
 示例:
 
     给定 nums = [2, 7, 11, 15], target = 9
-    
+
     因为 nums[0] + nums[1] = 2 + 7 = 9
     所以返回 [0, 1]
 
@@ -56,7 +45,7 @@
 示例：
 
     给定数组 nums = [-1, 0, 1, 2, -1, -4]，
-    
+
     满足要求的三元组集合为：
     [
         [-1, 0, 1],
@@ -125,13 +114,13 @@
 示例:
 
     你可以将以下二叉树：
-    
+
         1
        / \
       2   3
          / \
         4   5
-    
+
     序列化为 "[1,2,3,null,null,4,5]"
 
 **提示**: 这与 LeetCode 目前使用的方式一致，详情请参阅 LeetCode 序列化二叉树的格式。你并非必须采取这种方式，你也可以采用其他的方法解决这个问题。
@@ -282,7 +271,7 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 示例 1:
 
     输入: [1,2,3]
-    
+
                1
               / \
              2   3
@@ -291,7 +280,7 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
 示例 2:
 
     输入: [-10,9,20,null,null,15,7]
-    
+
        -10
        / \
       9  20
@@ -367,5 +356,32 @@ p 可能为空，且只包含从 a-z 的小写字母，以及字符 . 和 
     输入: [1,2,3,0,2]
     输出: 3
     解释: 对应的交易状态为: [买入, 卖出, 冷冻期, 买入, 卖出]
+
+----
+
+## <span id="014">014Lntersection_of_two_arrays_2</span>
+
+给定两个数组，编写一个函数来计算它们的交集。
+
+示例 1：
+
+    输入：nums1 = [1,2,2,1], nums2 = [2,2]
+    输出：[2,2]
+
+示例 2:
+
+    输入：nums1 = [4,9,5], nums2 = [9,4,9,8,4]
+    输出：[4,9]
+
+说明：
+
+- 输出结果中每个元素出现的次数，应与元素在两个数组中出现次数的最小值一致。
+- 我们可以不考虑输出结果的顺序。
+
+进阶：
+
+- 如果给定的数组已经排好序呢？你将如何优化你的算法？
+- 如果 nums1 的大小比 nums2 小很多，哪种方法更优？
+- 如果 nums2 的元素存储在磁盘上，磁盘内存是有限的，并且你不能一次加载所有的元素到内存中，你该怎么办？
 
 ----
